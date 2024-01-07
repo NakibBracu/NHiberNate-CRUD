@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>NHiberNate_CRUD.Persistence</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.11" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.11" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.11" />
+		<PackageReference Include="System.Linq.Dynamic.Core" Version="1.3.5" />
+		<PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="7.0.11" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.11" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NHiberNate-CRUD.Application\NHiberNate-CRUD.Application.csproj" />
+    <ProjectReference Include="..\NHiberNate-CRUD.Domain\NHiberNate-CRUD.Domain.csproj" />
+    <ProjectReference Include="..\NHiberNate-CRUD.Infrastructure\NHiberNate-CRUD.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
