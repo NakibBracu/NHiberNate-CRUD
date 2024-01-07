@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<RootNamespace>NHiberNate_CRUD.Application</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\NHiberNate-CRUD.Domain\NHiberNate-CRUD.Domain.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Features\Repositories\" />
+		<Folder Include="Features\Services\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Autofac" Version="7.1.0" />
+	</ItemGroup>
+
+</Project>

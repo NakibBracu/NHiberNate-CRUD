@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHiberNate-CRUD.Web", "src\NHiberNate-CRUD.Web\NHiberNate-CRUD.Web.csproj", "{F1B740FF-3287-4EEF-944F-7682628A7180}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHiberNate-CRUD.Domain", "src\NHiberNate-CRUD.Domain\NHiberNate-CRUD.Domain.csproj", "{E4354B90-E614-466D-B575-6CE07171ECA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHiberNate-CRUD.Infrastructure", "src\NHiberNate-CRUD.Infrastructure\NHiberNate-CRUD.Infrastructure.csproj", "{4CACA624-E62F-4AB6-945F-B923586A7C52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHiberNate-CRUD.Application", "src\NHiberNate-CRUD.Application\NHiberNate-CRUD.Application.csproj", "{028923BF-370E-41CE-89CA-B2F2FE42A987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHiberNate-CRUD.Persistence", "src\NHiberNate-CRUD.Persistence\NHiberNate-CRUD.Persistence.csproj", "{5D313EE6-56B1-4B2B-BE8C-F4AACE9F6BE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1B740FF-3287-4EEF-944F-7682628A7180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B740FF-3287-4EEF-944F-7682628A7180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B740FF-3287-4EEF-944F-7682628A7180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B740FF-3287-4EEF-944F-7682628A7180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4354B90-E614-466D-B575-6CE07171ECA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4354B90-E614-466D-B575-6CE07171ECA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4354B90-E614-466D-B575-6CE07171ECA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4354B90-E614-466D-B575-6CE07171ECA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CACA624-E62F-4AB6-945F-B923586A7C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CACA624-E62F-4AB6-945F-B923586A7C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CACA624-E62F-4AB6-945F-B923586A7C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CACA624-E62F-4AB6-945F-B923586A7C52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{028923BF-370E-41CE-89CA-B2F2FE42A987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{028923BF-370E-41CE-89CA-B2F2FE42A987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{028923BF-370E-41CE-89CA-B2F2FE42A987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{028923BF-370E-41CE-89CA-B2F2FE42A987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D313EE6-56B1-4B2B-BE8C-F4AACE9F6BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D313EE6-56B1-4B2B-BE8C-F4AACE9F6BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D313EE6-56B1-4B2B-BE8C-F4AACE9F6BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D313EE6-56B1-4B2B-BE8C-F4AACE9F6BE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F684E840-56B8-4B2D-BE10-C940A1F7AC50}
+	EndGlobalSection
+EndGlobal
